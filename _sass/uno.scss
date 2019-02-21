@@ -1215,7 +1215,7 @@ hr {
 
 .panel-cover--collapsed {
 	width: 40%;
-	max-width: 530px; }
+	 }
 
 .panel-cover--overlay {
 	display: block;
@@ -1250,7 +1250,7 @@ hr {
 
 .no-js .panel-main {
 	width: 40%;
-	max-width: 530px; }
+	 }
 
 .panel-main__inner {
 	display: table-cell;
@@ -1260,11 +1260,11 @@ hr {
 	padding: 0 60px; }
 
 .panel-main__content {
-	max-width: 620px;
+
 	margin: 0 auto; }
 
 .panel-main__content--fixed {
-	width: 480px;
+
 	transition: width 1s;
 	-webkit-transition: width 1s;
 	/* Safari */ }
