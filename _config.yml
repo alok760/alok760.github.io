@@ -2,17 +2,17 @@
 title: Jekyll-Uno
 description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
 url: 'http://alok760.github.io'
-baseurl: '/'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Alok Kumar'
+  email: alok760@gmail.com
+  twitter_username: alok760
+  facebook_username: alok760
+  github_username:  alok760
+  linkedin_username:  alok760
 
 defaults:
   -
