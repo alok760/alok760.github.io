@@ -1,8 +1,8 @@
 ---
-title:        "Sample Post"
-description:  "A short description of the page's content"
+title:        "Make Your own Smart Speak with SUSI.AI"
+description:  "Learn to make your own smart speaker with a raspberry pi"
 image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+author:       "Alok"
 ---
 
 An h1 header
