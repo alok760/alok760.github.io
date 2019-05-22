@@ -5,6 +5,8 @@ image:        "smart_speaker.jpg"
 author:       "Alok"
 ---
 
+![susi.ai smart speaker](/assets/smart_speaker.jpg)
+
 Things you will need
 - Raspberry Pi
 - Respeaker 2-mics Hat, usb mic, usb sound card
@@ -12,4 +14,4 @@ Things you will need
 - speaker
 
 ### Step 1 Downloading the image
-Download the latest Susibian image
+Download the latest Susibian image from https://github.com/fossasia/susi_installer/releases
