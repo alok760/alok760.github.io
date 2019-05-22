@@ -1,5 +1,5 @@
 ---
-title:        "Make Your own Smart Speak with SUSI.AI (In Progress article)"
+title:        "Make Your own Smart Speaker with SUSI.AI (In Progress article)"
 description:  "Learn to make your own smart speaker with a raspberry pi"
 image:        "smart_speaker.jpg"
 author:       "Alok"
@@ -7,8 +7,9 @@ author:       "Alok"
 
 ![susi.ai smart speaker](/assets/smart_speaker.jpg)
 
-If you're worried about privacy concerns when using smart assistants or just want to build your own one with complete freedom then this guide will help you. SUSI.AI is free and open source and provides Artificial Intelligence for Smart Speaker, Personal Assistants, Robots, Help Desks and Chatbots.
+If you're worried about privacy concerns when using smart assistants or just want to build your own one with complete freedom then this guide will help you. SUSI.AI is free and open source and provides Artificial Intelligence for Smart Speakers, Personal Assistants, Robots, Help Desks and Chatbots.
 
+In this guide we will be building our own smart speaker assistant which will talk to the user just like Alexa or Google home. The keyword will be "SUSI".
 
 Things you will need
 - Raspberry Pi
