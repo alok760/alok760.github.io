@@ -1,5 +1,5 @@
 ---
-title:        "Make Your own Smart Speaker with SUSI.AI (In Progress article)"
+title:        "Make Your own Smart Speaker with SUSI.AI (In Progress)"
 description:  "Learn to make your own smart speaker with a raspberry pi"
 image:        "smart_speaker.jpg"
 author:       "Alok"
@@ -41,19 +41,21 @@ Example <br> `sudo dd if=/home/alok/Downloads/susibian-201905150334.img of=/dev/
 #### Step 2 Setting up the hardware
 1. Insert the microSD card into your raspberry pi  
 2. Attach ReSpeaker hat to your Raspberry Pi
-3. connect your speaker through the 3.5mm jack on respeaker hat or connect your JST PH2.0 speakers using the on board JST connector
-4. plug in the power supply to your raspberry pi
+3. Connect your speaker through the 3.5mm jack on respeaker hat or connect your JST PH2.0 speakers using the on board JST connector
+4. Plug in the power supply to your raspberry pi.
 ![susi.ai smart speaker](/assets/speaker.jpeg)
 
 #### Step 3 Setting up the speaker
-1. Download SUSI-AI android app
-2. Create an account or login
+1. Download SUSI-AI android app.
+2. Create an account or login.
 3. In app, go to settings -> Devices -> click here to move to device setup screen
 4. Wait for your device to show up and then click on setup.
 ![susi.ai smart speaker](/assets/setup_android.png)<br><br>
-5. Chose the wifi network you want your speaker to connect to and enter the password
+5. Chose the wifi network you want your speaker to connect to and enter the password.
 6. Add credentials.
 
 #### Testing
-1. After the setup, three LEDs on top of respeaker should light up
-2. say "SUSI" and wait for a bell sound
+1. After the setup, three LEDs on top of respeaker should light up.
+2. Say "SUSI" and wait for a bell sound.
+3. Speak your query!!
+4. Enjoy your new personal assistant
