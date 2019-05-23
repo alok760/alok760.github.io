@@ -38,7 +38,22 @@ Example <br> `sudo dd if=/home/alok/Downloads/susibian-201905150334.img of=/dev/
 (find the diskname of your sd card by typing `lsblk`)
 
 
-#### Step 2 Choosing the required hardware
-- As this is a smart speaker we will need both a microphone and a speaker
-- Setting up using respeaker hat
-  - ReSpeaker 2-Mics Pi HAT is a dual-microphone expansion board for Raspberry Pi designed for AI and voice applications. - - http://wiki.seeedstudio.com/ReSpeaker_2_Mics_Pi_HAT/
+#### Step 2 Setting up the hardware
+1. Insert the microSD card into your raspberry pi  
+2. Attach ReSpeaker hat to your Raspberry Pi
+3. connect your speaker through the 3.5mm jack on respeaker hat or connect your JST PH2.0 speakers using the on board JST connector
+4. plug in the power supply to your raspberry pi
+![susi.ai smart speaker](/assets/speaker.jpeg)
+
+#### Step 3 Setting up the speaker
+1. Download SUSI-AI android app
+2. Create an account or login
+3. In app, go to settings -> Devices -> click here to move to device setup screen
+4. Wait for your device to show up and then click on setup.
+![susi.ai smart speaker](/assets/setup_android.png)<br><br>
+5. Chose the wifi network you want your speaker to connect to and enter the password
+6. Add credentials.
+
+#### Testing
+1. After the setup, three LEDs on top of respeaker should light up
+2. say "SUSI" and wait for a bell sound
