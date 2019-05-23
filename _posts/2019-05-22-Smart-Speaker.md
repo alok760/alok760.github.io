@@ -20,14 +20,14 @@ Things you will need
 
 ![components](/assets/components.jpeg)
 
-#### Download and flash the image
+#### Step 1 Download and flash the image
 1. Download the latest Susibian image from https://github.com/fossasia/susi_installer/releases.
    The downloaded image will look something like susibian-xxxxxxxxxxxx.img.xz
 2. Insert the SD card in your PC
 3. If you're on linux open up a terminal and go to your downloads folder(or the place where the image is downloaded) and type the following commands
 
 
-Extract the image <br>
+<b> Extract the image </b> <br>
 `tar xvf susibian-<timestamp>.img.xz` <br>
 Example <br>
 `tar xvf susibian-201905170311.img.xz`
@@ -36,8 +36,6 @@ Example <br>
 `sudo dd if=<path_to_downloaded_image_file> of=/dev/sdX bs=4M status=progress`<br>
 Example <br> `sudo dd if=/home/alok/Downloads/susibian-201905150334.img of=/dev/sdc bs=4M status=progress` <br>
 (find the diskname of your sd card by typing `lsblk`)
-
-
 
 
 #### Step 2 Choosing the required hardware
