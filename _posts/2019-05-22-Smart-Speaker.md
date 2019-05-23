@@ -20,14 +20,25 @@ Things you will need
 
 ![components](/assets/components.jpeg)
 
-#### Step 1 Downloading and flashing the image
-- Download the latest Susibian image from https://github.com/fossasia/susi_installer/releases
-- Flash the image onto your SD card
-  - Download balena etcher or use DD command line utility
-    - <b> Flash using DD(Linux) </b>
-    - run command
-    `sudo dd if=<path_to_downloaded_image_file> of=/dev/sdX bs=4M status=progress`
-    - Example `sudo dd if=/home/alok/Downloads/susibian-201905150334.img of=/dev/sdc bs=4M status=progress`
+#### Download and flash the image
+1. Download the latest Susibian image from https://github.com/fossasia/susi_installer/releases.
+   The downloaded image will look something like susibian-xxxxxxxxxxxx.img.xz
+2. Insert the SD card in your PC
+3. If you're on linux open up a terminal and go to your downloads folder(or the place where the image is downloaded) and type the following commands
+
+
+Extract the image <br>
+`tar xvf susibian-<timestamp>.img.xz` <br>
+Example <br>
+`tar xvf susibian-201905170311.img.xz`
+
+<b> Write the image to sd-card </b> <br>
+`sudo dd if=<path_to_downloaded_image_file> of=/dev/sdX bs=4M status=progress`<br>
+Example <br> `sudo dd if=/home/alok/Downloads/susibian-201905150334.img of=/dev/sdc bs=4M status=progress` <br>
+(find the diskname of your sd card by typing `lsblk`)
+
+
+
 
 #### Step 2 Choosing the required hardware
 - As this is a smart speaker we will need both a microphone and a speaker
