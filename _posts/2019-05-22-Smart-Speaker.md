@@ -46,7 +46,7 @@ Example <br> `sudo dd if=/home/alok/Downloads/susibian-201905150334.img of=/dev/
 ![susi.ai smart speaker](/assets/speaker.jpeg)
 
 #### Step 3 Setting up the speaker
-1. Download SUSI-AI android app.
+1. Download SUSI-AI android app. https://github.com/fossasia/susi_android/releases/download/1.1/susiai_20180826.apk
 2. Create an account or login.
 3. In app, go to settings -> Devices -> click here to move to device setup screen
 4. Wait for your device to show up and then click on setup.
